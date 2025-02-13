@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Employee Details</title>
+</head>
+<body>
+    <form action="form" method="post" style="display: flex; justify-content: center; align-items: center;">
+        <div class="empform">
+            <h2>*** Employee Details ***</h2>
+
+            <label><strong>Employee Id:</strong></label>
+            <input type="text" name="id" required><br><br>
+
+            <label><strong>Employee Name:</strong></label>
+            <input type="text" name="name" required><br><br>
+
+            <label><strong>Employee Address:</strong></label>
+            <input type="text" name="address" required><br><br>
+
+            <label><strong>Employee Salary:</strong></label>
+            <input type="number" name="salary" required><br><br>
+
+            <label><strong>Employee Gender:</strong></label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="Female" required><br><br>
+
+            <label><strong>Employee Profile:</strong></label>
+            <label for="dev">Developer</label>
+            <input type="radio" id="dev" name="profile" value="Developer" required>
+            <label for="test">Tester</label>
+            <input type="radio" id="test" name="profile" value="Tester">
+            <label for="qa">QA</label>
+            <input type="radio" id="qa" name="profile" value="QA"><br><br>
+
+            <label><strong>Employee Hobbies:</strong></label>
+            <label for="read">Reading</label>
+            <input type="checkbox" id="read" name="hobbies" value="Reading">
+            <label for="write">Writing</label>
+            <input type="checkbox" id="write" name="hobbies" value="Writing">
+            <label for="search">Searching</label>
+            <input type="checkbox" id="search" name="hobbies" value="Searching">
+            <label for="code">Coding</label>
+            <input type="checkbox" id="code" name="hobbies" value="Coding"><br><br>
+
+            <input type="submit" value="Submit" style="text-align: center;"><br>
+        </div>
+    </form>
+</body>
+</html>
